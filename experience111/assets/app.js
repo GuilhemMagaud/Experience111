@@ -6,7 +6,12 @@
  */
 
 // any CSS you import will output into a single css file (app.css in this case)
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './styles/app.css';
+import Accueil from './component/Accueil';
 
+ReactDOM.render(<Router><Accueil /></Router>, document.getElementById('root'));
 // start the Stimulus application
-import './bootstrap';
+//import './bootstrap';
