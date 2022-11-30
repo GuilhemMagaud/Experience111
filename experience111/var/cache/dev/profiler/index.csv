@@ -1,0 +1,9 @@
+a61f0e,127.0.0.1,GET,http://localhost:8000/,1668606932,,404
+5f0d3c,127.0.0.1,GET,http://localhost:8000/,1668606949,,404
+5810d5,::1,GET,http://localhost:8000/,1668607800,,404
+a85fe8,::1,GET,http://localhost:8000/,1668608715,,404
+c825ae,127.0.0.1,GET,http://localhost:8000/,1669806250,,404
+ea341b,127.0.0.1,GET,http://localhost:8000/default,1669806340,,200
+71dcf1,127.0.0.1,GET,http://localhost:8000/build/app.css,1669806340,05d29a,404
+05d29a,127.0.0.1,GET,http://localhost:8000/build/app.css,1669806340,,404
+110bdf,127.0.0.1,GET,http://localhost:8000/default,1669808619,,200
