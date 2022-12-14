@@ -10,8 +10,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './styles/app.css';
-import Accueil from './component/Accueil';
+import ReactRoute from './component/ReactRoute';
 
-ReactDOM.render(<Router><Accueil /></Router>, document.getElementById('root'));
+ReactDOM.render(<Router><ReactRoute /></Router>, document.getElementById('root'));
 // start the Stimulus application
 //import './bootstrap';
