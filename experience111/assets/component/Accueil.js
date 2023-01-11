@@ -45,11 +45,12 @@ export function Hamburger() {
   );
 }
 
+
 class Accueil extends Component {
     render() {
         return (
             <div>
-                <Hamburger />
+                {/*<Hamburger /> */}
                 <p>hello world</p>
             </div>
         )
