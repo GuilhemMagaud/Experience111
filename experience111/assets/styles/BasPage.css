@@ -1,0 +1,28 @@
+.BP {
+    background-color: #3894A3BD;
+    display: flex;
+
+}
+
+.BP li{
+    display: inline;
+}
+
+.svgb {
+    height: 70px;
+    width: 70px; 
+}
+
+.divimgb{
+    width: 20%;
+}
+
+.Logob{
+    margin-left: 200%;
+    width: 100%;
+}
+
+.divlib{
+    width: 30%;
+    text-align: right;
+}
