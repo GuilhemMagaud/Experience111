@@ -1,0 +1,3 @@
+<?php //App%255CEntity%255CInfoComp%2523getLivreId
+
+return [PHP_INT_MAX, []];

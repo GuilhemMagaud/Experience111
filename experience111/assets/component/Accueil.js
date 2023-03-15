@@ -1,59 +1,15 @@
-import React, {Component, useState} from 'react';
-import {
-  MDBContainer,
-  MDBCollapse,
-  MDBNavbar,
-  MDBNavbarToggler,
-  MDBIcon,
-  MDBBtn,
-} from 'mdb-react-ui-kit';
-
-export function Hamburger() {
-  const [showNavExternal, setShowNavExternal] = useState(false);
-
-  return (
-    <>
-      <MDBNavbar>
-        <MDBContainer fluid>
-          <MDBNavbarToggler
-            type='button'
-            data-target='#navbarToggleExternalContent'
-            aria-controls='navbarToggleExternalContent'
-            aria-expanded='false'
-            aria-label='Toggle navigation'
-            onClick={() => setShowNavExternal(!showNavExternal)}
-          >
-            <MDBIcon icon='bars' fas />
-          </MDBNavbarToggler>
-        </MDBContainer>
-      </MDBNavbar>
-
-      <MDBCollapse show={showNavExternal}>
-        <div className='bg-light shadow-3 p-4'>
-          <MDBBtn block className='border-bottom m-0' color='link'>
-            Link 1
-          </MDBBtn>
-          <MDBBtn block className='border-bottom m-0' color='link'>
-            Link 2
-          </MDBBtn>
-          <MDBBtn block className='border-bottom m-0' color='link'>
-            Link 2
-          </MDBBtn>
-        </div>
-      </MDBCollapse>
-    </>
-  );
-}
+import React, {Component} from 'react';
+import  { Navbar } from './Header/Navbar';
 
 class Accueil extends Component {
-    render() {
-        return (
-            <div>
-                <Hamburger />
-                <p>hello world</p>
-            </div>
-        )
+    render(){
+          return (
+        <div>
+            <Navbar/>
+            <p>hello world</p>
+        </div>
+          )
     }
-}
 
+    };
 export default Accueil;
