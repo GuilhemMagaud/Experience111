@@ -1,0 +1,3 @@
+<?php //App%255CEntity%255CInfoComp
+
+return [PHP_INT_MAX, []];
