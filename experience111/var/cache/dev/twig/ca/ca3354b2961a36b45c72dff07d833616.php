@@ -227,6 +227,6 @@ class __TwigTemplate_ea88bbbbaf036afc70d4ad49b15ee0d3 extends Template
         </div>
     {% endif %}
 {% endblock %}
-", "@WebProfiler/Collector/exception.html.twig", "C:\\Users\\guilh\\travaille\\ynov\\b3\\ydays\\code\\Experience111\\experience111\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\exception.html.twig");
+", "@WebProfiler/Collector/exception.html.twig", "C:\\xampp\\htdocs\\Experience111\\experience111\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\exception.html.twig");
     }
 }
