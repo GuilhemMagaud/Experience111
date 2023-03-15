@@ -1,15 +1,12 @@
-import React, {Component} from 'react';
-import  { Navbar } from './Header/Navbar';
+import React, {Component, useState} from 'react';
 
-class Accueil extends Component {
-    render(){
-          return (
+
+function Acceuil(){
+    return(
         <div>
-            <Navbar/>
             <p>hello world</p>
         </div>
-          )
-    }
+    )
+}
 
-    };
-export default Accueil;
+export default Acceuil;

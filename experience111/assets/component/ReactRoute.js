@@ -13,9 +13,9 @@ class ReactRoute extends Component{
 			<div>
 				<Routes>
 					<Route exact path="/" element={< RouteDistribution />} />
-                    <Route exact path="/espace_utilisateur" element={< UserSpace />} />
-                    <Route exact path="/information_complémentaire" element={< InfoComplementaire />} />
-                    <Route exact path="/a_propos_de_l_autrice" element={< APPautrice />} />
+                    <Route exact path="/espace-utilisateur" element={< UserSpace />} />
+                    <Route exact path="/information-complémentaire" element={< InfoComplementaire />} />
+                    <Route exact path="/a-propos-de-l-autrice" element={< APPautrice />} />
                     <Route exact path="/faq" element={< FAQ />} />
 				</Routes>
 			</div>
