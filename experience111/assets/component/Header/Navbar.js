@@ -1,17 +1,29 @@
 import React from 'react';
+import { useState } from 'react';
 // import {  Link } from "react-router-dom";
 import { NavLink } from 'react-router-dom'
 import Logo from '../../images/Logo-othilie-nardin-def.png';
+// import { ReactComponent as Hamburger } from '../../assets/icons/hamburger.svg';
 import '../../styles/Navbar.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 export function Navbar() {
+  const [showNavbar, setShowNavbar] = useState(false)
+
+  const handleShowNavbar = () => {
+    setShowNavbar(!showNavbar)
+  }
   return (
     <nav className="navbar">
       <div className="container">
         <div className="logo">
           <img className="Logo" src={Logo} alt="Logo Othilie NARDIN" />
         </div>
-        <div className="nav-elements">
+        <div className="menu-icon" onClick={handleShowNavbar}>
+          <FontAwesomeIcon className="icon" icon={faBars} />
+        </div>
+        <div className={`nav-elements  ${showNavbar && 'active'}`}>
           <ul>
             <li>
               <NavLink to="/">Acceuil</NavLink>
