@@ -321,3 +321,5 @@ d765c6,127.0.0.1,GET,http://localhost:8000/,1680075334,,200
 9a0fb9,127.0.0.1,GET,http://localhost:8000/faq,1680075343,,200
 3512e6,127.0.0.1,GET,http://localhost:8000/a_propos_de_l_autrice,1680075833,,200
 e8ce92,127.0.0.1,GET,http://localhost:8000/a-propos-de-l-autrice,1680075853,,200
+ada302,127.0.0.1,GET,http://localhost:8000/,1680076044,,200
+3179de,127.0.0.1,GET,http://localhost:8000/faq,1680076050,,200
