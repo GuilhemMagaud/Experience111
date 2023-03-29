@@ -1,28 +1,45 @@
 .BP {
-    background-color: #3894A3BD;
+    background-color: #2F414F;
     display: flex;
 
 }
 
-.BP li{
-    display: inline;
+.divbp{
+    display: flex;
+    justify-content: start;
 }
 
-.svgb {
-    height: 70px;
-    width: 70px; 
+.divtik{
+    width: 11%;
 }
 
-.divimgb{
-    width: 20%;
+.divinsta{
+    width: 13%;
 }
 
-.Logob{
+.Logotik{
+    margin-left: 18%;
+    width: 100%;
+}
+
+.Logoinsta{
     margin-left: 200%;
     width: 100%;
 }
 
-.divlib{
-    width: 30%;
-    text-align: right;
+.divlibp{
+    margin-left: 26%;
+    width: 24%;
+    text-align: center;
+    font-size: 3.3vw;
+    color: #FFFFFF;
+    list-style-type:none;
+    font-weight: 500;
+}
+
+.divlibp li{
+    margin-top: 10%;
+}
+.divlibp li+li+li{
+    margin-bottom: 10%;
 }
