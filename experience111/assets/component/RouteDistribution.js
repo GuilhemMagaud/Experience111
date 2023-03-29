@@ -19,17 +19,17 @@ function RouteDistribution(){
             <Accueil />
         </div>
     }
-    if(valDim == 'espace_utilisateur'){
+    if(valDim == 'espace-utilisateur'){
         return <div>
             <UserSpace />
         </div>
     }
-    if(valDim == 'information_complémentaire'){
+    if(valDim == 'information-complémentaire'){
         return <div>
             <InfoComplementaire />
         </div>
     }
-    if(valDim == 'a_propos_de_l_autrice'){
+    if(valDim == 'a-propos-de-l-autrice'){
         return <div>
             <APPautrice />
         </div>
