@@ -11,6 +11,7 @@ if (\class_exists(\ContainerED4pFWq\App_KernelDevDebugContainer::class, false)) 
 }
 
 if (!\class_exists(App_KernelDevDebugContainer::class, false)) {
+
     \class_alias(\ContainerED4pFWq\App_KernelDevDebugContainer::class, App_KernelDevDebugContainer::class, false);
 }
 
@@ -19,3 +20,4 @@ return new \ContainerED4pFWq\App_KernelDevDebugContainer([
     'container.build_id' => '0c43e94c',
     'container.build_time' => 1678879457,
 ], __DIR__.\DIRECTORY_SEPARATOR.'ContainerED4pFWq');
+

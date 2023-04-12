@@ -63,6 +63,7 @@ function Acceuil(){
                 <img className="Amazone" src={amazone} alt="Amazone"/>
                 <p className='amazonep'>A retrouver dès maintenant sur Amazon</p>
             </div>
+
         </div>
     )
 }

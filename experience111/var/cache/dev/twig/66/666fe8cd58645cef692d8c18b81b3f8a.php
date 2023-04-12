@@ -400,6 +400,6 @@ class __TwigTemplate_02d45f3f3764ada9c7a07844377ba949 extends Template
 
 </body>
 </html>
-", "@ApiPlatform/SwaggerUi/index.html.twig", "C:\\Users\\guilh\\travaille\\ynov\\b3\\ydays\\code\\Experience111\\experience111\\vendor\\api-platform\\core\\src\\Symfony\\Bundle\\Resources\\views\\SwaggerUi\\index.html.twig");
+", "@ApiPlatform/SwaggerUi/index.html.twig", "C:\\Users\\balka\\OneDrive\\Bureau\\Ynov\\Ydays\\Expérience111\\Experience111-1\\experience111\\vendor\\api-platform\\core\\src\\Symfony\\Bundle\\Resources\\views\\SwaggerUi\\index.html.twig");
     }
 }
