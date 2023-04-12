@@ -1,3 +1,20 @@
 body {
-    background-color: lightgray;
+    background-color: #D2EBF0;
 }
+.Autrice{
+        width: 40%;
+        object-fit: cover;
+        object-position: bottom;
+        margin: 20px 0 20px 0;
+}
+.APPautrice{
+    float: right;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+}
+
+.Connexion{
+    background-color: #D2EBF0;
+}
+
