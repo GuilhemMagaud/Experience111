@@ -12,7 +12,8 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import './styles/app.css';
 import ReactRoute from './component/ReactRoute';
 import { Navbar } from './component/Header/Navbar';
+import { BasPage } from './component/Footer/BasPage';
 
-ReactDOM.render(<Router><Navbar/><ReactRoute /></Router>, document.getElementById('root'));
+ReactDOM.render(<Router><Navbar/><ReactRoute /><BasPage /></Router>, document.getElementById('root'));
 // start the Stimulus application
 //import './bootstrap';

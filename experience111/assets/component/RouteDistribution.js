@@ -26,11 +26,11 @@ function RouteDistribution(){
             <UserSpace />
         </div>
     }
-    // if(valDim == 'information_complémentaire'){
-    //     return <div>
-    //         <InfoComplementaire />
-    //     </div>
-    // }
+    if(valDim == 'information-complémentaire'){
+        return <div>
+            <InfoComplementaire />
+        </div>
+    }
     if(valDim == 'a-propos-de-l-autrice'){
         return <div>
             <APPautrice />
