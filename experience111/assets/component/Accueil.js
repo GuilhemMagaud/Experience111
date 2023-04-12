@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import couverture from '../images/Couv-E111.png';
 import amazone from '../images/logo-amazon.png';
 import triangle from '../images/polygon 1.png'
@@ -6,10 +6,30 @@ import '../styles/Accueil.css';
 
 function Acceuil(){
 
-    const textmodif ="secret-text";
+    const [rot, setRot] = useState('0deg');
+    const [textmodif, setTextmodif] = useState('none');
+    const secretText = () =>{
+        if(textmodif == "none"){
+            setTextmodif("contents");
+            setRot("90deg");
+        }
+        else if(textmodif == "contents"){
+            setTextmodif("none");
+            setRot("0deg");
+        }
+    }
 
-    const secretText = (e) =>{
-        textmodif = "visible-text";
+    const [rot1, setRot1] = useState('0deg');
+    const [textmodif1, setTextmodif1] = useState('none');
+    const secretText1 = () =>{
+        if(textmodif1 == "none"){
+            setTextmodif1("contents");
+            setRot1("90deg");
+        }
+        else if(textmodif1 == "contents"){
+            setTextmodif1("none");
+            setRot1("0deg");
+        }
     }
 
     return(
@@ -17,8 +37,8 @@ function Acceuil(){
             <h1 className='titreAcc'>EXPERIENCE 111,Le Jeu:</h1>
             <div className='imgcouv'><img className="Couverture" src={couverture} alt="Couverture"/></div>
             <div className='resum'>
-                <p onClick={ secretText() }><img className="Triangle" src={triangle} alt="Triangle"/> Résumé</p>
-                <div className={{textmodif}}>
+                <p onClick={() => secretText()}><img style={{rotate: rot}} className="Triangle" src={triangle} alt="Triangle"/> Résumé</p>
+                <div style={{ display: textmodif}}>
                     <p>Lily se réveille dans son lycée.</p>
                     <p>Contrairement à ce que l’on pourrait croire, elle ne s’est pas endormie en  cours... Elle est prisonnière d’un psychopathe dans une sorte d’Escape Game. Cinq de ses camarades sont piégés avec notre héroïne.</p>
                     <p>Tous n’ont aucun souvenir de leur vie d’avant.<br/>Faut-il qu’ils s’entraident? Ou bien des sacrifices sont la seule option? Car malgré les apparences ce lieu pourrait biern avoir un secret terrible qui pourrait leur coûter la vie...</p>
@@ -28,8 +48,8 @@ function Acceuil(){
                 </div>
             </div>
             <div className='resum'>
-                <p><img className="Triangle" src={triangle} alt="Triangle"/> Détail du produit</p>
-                <div className={{textmodif}}>
+                <p onClick={() => secretText1()}><img style={{rotate: rot1}} className="Triangle" src={triangle} alt="Triangle"/> Détail du produit</p>
+                <div style={{ display: textmodif1}}>
                     <p>Editeure: Othilie Nardin</p>
                     <p>Langue: Français</p>
                     <p className='specialp'>Broché:</p>

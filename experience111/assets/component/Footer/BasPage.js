@@ -13,13 +13,13 @@ export function BasPage(){
     return(
         <footer className='BP'>
             <div className='divbp'>
-                <div className='divtik'><Link to='/faq' style={linkStyle}><img className="Logotik" src={tiktok} alt="Logo Tiktok" /></Link></div>
+                <div className='divtik'><a href='https://www.tiktok.com/@othilie.edition?_t=8bQi5nUmWOs&_r=1' style={linkStyle}><img className="Logotik" src={tiktok} alt="Logo Tiktok" /></a></div>
                 <diV className='divlibp'>
                     <li><Link to='/faq' style={linkStyle}>F.A.Q.</Link></li>
                     <li><Link to='/faq' style={linkStyle}>Me contacter</Link></li>
                     <li><Link to='/faq' style={linkStyle}>Mentions légales</Link></li>
                 </diV>
-                <div className='divinsta'><Link to='/faq' style={linkStyle}><img className="Logoinsta" src={insta} alt="Logo Insta" /></Link></div>
+                <div className='divinsta'><a href='/https://www.instagram.com/othilie.edition/' style={linkStyle}><img className="Logoinsta" src={insta} alt="Logo Insta" /></a></div>
             </div>
         </footer>
     );

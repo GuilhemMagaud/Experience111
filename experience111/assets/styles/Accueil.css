@@ -55,8 +55,10 @@
 
 .secret-text{
     display: none;
+    visibility: hidden;
 }
 
 .visible-text{
     display: contents;
+    visibility: visible;
 }
