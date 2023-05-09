@@ -15,12 +15,12 @@
 }
 
 .Triangle{
-    width:1%;
+    width:0.5%;
 }
 
 .resum {
-    font-size: 3.9vw;
-    margin-left: 8%;
+    font-size: 1.8vw;
+    margin-left: 2em;
     margin-top: 1rem;
 }
 
@@ -30,11 +30,11 @@
 
 
 .amazonebut{
-    margin-top: 10%;
+    margin-top: 2em;
     border-radius: 1rem;
-    margin-left: 10%;
+    margin-left: 30%;
     background-color: #A7E3F5;
-    width: 80%;
+    width: 40%;
     justify-content: start;
     display: flex;
     margin-bottom: 5%;
@@ -49,7 +49,7 @@
 .amazonep{
     margin-right: 9%;
     margin-left: 4%;
-    font-size: 3.9vw;
+    font-size: 1.9vw;
     text-align: center;
 }
 
@@ -61,4 +61,71 @@
 .visible-text{
     display: contents;
     visibility: visible;
+}
+
+@media (max-width: 768px) {
+    .titreAcc{
+        font-size: 5vw;
+        margin-left: 9%;
+        margin-top: 2rem;
+    }
+
+    .imgcouv{
+        width: 38%;
+    }
+
+    .Couverture{
+        margin-top: 2.5rem;
+        margin-left: 85%;
+        width: 100%;
+    }
+
+    .Triangle{
+        width:1%;
+    }
+
+    .resum {
+        font-size: 3.9vw;
+        margin-left: 8%;
+        margin-top: 1rem;
+    }
+
+    .specialp{
+        margin-left: 18%;
+    }
+
+
+    .amazonebut{
+        margin-top: 10%;
+        border-radius: 1rem;
+        margin-left: 10%;
+        background-color: #A7E3F5;
+        width: 80%;
+        justify-content: start;
+        display: flex;
+        margin-bottom: 5%;
+    }
+
+    .Amazone{
+        margin-top: 3%;
+        margin-left: 3%;
+        width: 24%;
+    }
+
+    .amazonep{
+        margin-right: 9%;
+        margin-left: 4%;
+        font-size: 3.9vw;
+        text-align: center;
+    }
+
+    .secret-text{
+        display: none;
+        visibility: hidden;
+    }
+
+    .visible-text{
+        display: contents;
+        visibility: visible;
+    }
 }

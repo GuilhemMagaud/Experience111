@@ -4,7 +4,10 @@ import UserSpace from './UserSpace';
 import APPautrice  from './APPautrice';
 import SignIn from './SignIn'; 
 import SignUp from './SignUp';
-// import FAQ from './FAQ';
+import FAQ from './FAQ';
+import LegalNotice from './LegalNotice';
+import Personnages from './Personnages';
+import Extraits from './Extraits';
 // import InfoComplementaire from './InfoComplementaire';
 
 
@@ -26,9 +29,9 @@ function RouteDistribution(){
             <UserSpace />
         </div>
     }
-    if(valDim == 'information-complémentaire'){
+    if(valDim == 'information-complementaire'){
         return <div>
-            <InfoComplementaire />
+            <Extraits />
         </div>
     }
     if(valDim == 'a-propos-de-l-autrice'){
@@ -36,11 +39,11 @@ function RouteDistribution(){
             <APPautrice />
         </div>
     }
-    // if(valDim == 'faq'){
-    //     return <div>
-    //         <FAQ />
-    //     </div>
-    // }
+    if(valDim == 'faq'){
+        return <div>
+            <FAQ />
+        </div>
+    }
     if(valDim == 'connexion'){
         return <div>
             <SignIn/>
@@ -49,6 +52,16 @@ function RouteDistribution(){
     if(valDim == 'newUser'){
         return <div>
             <SignUp/>
+        </div>
+    }
+    if(valDim == 'legal'){
+        return <div>
+            <LegalNotice/>
+        </div>
+    }
+    if(valDim == 'personnages'){
+        return <div>
+            <Personnages/>
         </div>
     }
 }

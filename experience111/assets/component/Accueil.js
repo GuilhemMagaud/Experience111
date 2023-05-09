@@ -54,16 +54,18 @@ function Acceuil(){
                     <p>Langue: Français</p>
                     <p className='specialp'>Broché:</p>
                     <p>ISBN-13: 979-10-415-1060-3</p>
-                    <p>Poids de l’article:................................</p>
-                    <p>Dimensions:................................</p>
-                    <p>Commentaire client:</p>
+                    <p>Poids de l’article: 549 g</p>
+                    <p>Dimensions:15.24 x 1.85 x 22.86 cm</p>
                 </div>
             </div>
+            
             <div className='amazonebut'>
+                <a href='https://www.amazon.fr/Exp%C3%A9rience-111-jeu-Othilie-Nardin/dp/B0C1JBHXSN/ref=sr_1_1?crid=1C2FPWEL35LH&keywords=experience+111&qid=1683668406&sprefix=experience+111%2Caps%2C2342&sr=8-1' style={{textDecoration: "none", color: "black", display: "flex", justifyContent: "start"}}>
                 <img className="Amazone" src={amazone} alt="Amazone"/>
                 <p className='amazonep'>A retrouver dès maintenant sur Amazon</p>
+                </a>
             </div>
-
+            
         </div>
     )
 }

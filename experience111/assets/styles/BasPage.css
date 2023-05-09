@@ -1,7 +1,6 @@
 .BP {
-    background-color: #2F414F;
-    display: flex;
-
+background-color: #2F414F;
+display: flex;
 }
 
 .divbp{
@@ -10,28 +9,28 @@
 }
 
 .divtik{
-    width: 11%;
+    width: 7em;
 }
 
 .divinsta{
-    width: 13%;
+    width: 7em;
 }
 
 .Logotik{
-    margin-left: 18%;
+    margin-left: 3em;
     width: 100%;
 }
 
 .Logoinsta{
-    margin-left: 200%;
+    margin-left: 32em;
     width: 100%;
 }
 
 .divlibp{
-    margin-left: 26%;
-    width: 24%;
+    margin-left: 38em;
+    width: 10em;
     text-align: center;
-    font-size: 3.3vw;
+    font-size: 1vw;
     color: #FFFFFF;
     list-style-type:none;
     font-weight: 500;
@@ -42,4 +41,51 @@
 }
 .divlibp li+li+li{
     margin-bottom: 10%;
+}
+
+@media (max-width: 768px) {
+    .BP {
+    background-color: #2F414F;
+    display: flex;
+    }
+
+    .divbp{
+        display: flex;
+        justify-content: start;
+    }
+
+    .divtik{
+        width: 11%;
+    }
+
+    .divinsta{
+        width: 13%;
+    }
+
+    .Logotik{
+        margin-left: 18%;
+        width: 100%;
+    }
+
+    .Logoinsta{
+        margin-left: 200%;
+        width: 100%;
+    }
+
+    .divlibp{
+        margin-left: 26%;
+        width: 24%;
+        text-align: center;
+        font-size: 3.3vw;
+        color: #FFFFFF;
+        list-style-type:none;
+        font-weight: 500;
+    }
+
+    .divlibp li{
+        margin-top: 10%;
+    }
+    .divlibp li+li+li{
+        margin-bottom: 10%;
+    }
 }
